@@ -1,0 +1,43 @@
+.cityList{
+	flex: 1;
+	overflow-y: scroll;
+	position: relative;
+	padding: 0.267rem 0.4rem;
+	box-sizing: border-box;
+	background: #fff;
+	margin-top: 0.267rem;
+}
+.fixedLeft{
+	position: fixed;
+	right: 0;
+	width: 0.533rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	font-size: 0.373rem;
+}
+.fixedLeft a{
+	text-decoration: none;
+}
+.prevent{
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+}
+.modal{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	height: 2.133rem;
+	width: 2.133rem;
+	background: #f5f5f5;
+	border-radius: 100%;
+	color: #000;
+	font-size: 0.8rem;
+	text-align: center;
+	line-height: 2.133rem;
+}

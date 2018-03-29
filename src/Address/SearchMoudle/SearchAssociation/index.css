@@ -1,0 +1,21 @@
+.searchAssociation{
+	flex: 1;
+	background: #fff;
+	display: flex;
+	flex-direction: column;
+	overflow-y: scroll;
+	padding-bottom: 0.4rem;
+}
+.searchItem{
+	height: 1.333rem;
+	line-height: 1.333rem;
+	margin: 0.267rem 0.4rem 0;
+	border: 1px solid #ddd;
+	text-indent: 0.4rem;
+	text-decoration: none;
+	color: #333;
+	box-sizing: border-box;
+}
+.null{
+	margin: 0.533rem auto 0;
+}
