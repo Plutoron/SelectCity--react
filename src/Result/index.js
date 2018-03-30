@@ -20,7 +20,7 @@ class Result extends Component {
     render() {
        const { city } = this.state;
 
-       // 配置state
+       // 配置state 为默认参数
        // const state = {
        //      city: '北京市',
        //      selectHistory: ['1','2','3']
